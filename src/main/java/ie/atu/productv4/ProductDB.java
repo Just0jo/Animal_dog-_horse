@@ -67,7 +67,15 @@ public class ProductDB {
             myMusic.setArtist("Adele");
             p = myMusic;
         }
-        if
+        if (productCode.equalsIgnoreCase("Sony")) {
+            TV myTv = new TV();
+            myTv.setCode(productCode);
+            myTv.setDescription("4k hdr smart Tv\n");
+            myTv.setPrice(599.99);
+            myTv.setManufacture("Sony");
+            myTv.setScreenSize("64 inch");
+            p = myTv;
+        }
 
 
 
